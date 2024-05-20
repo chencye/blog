@@ -12,9 +12,13 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "./logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  // 默认为 GitHub. 同时也可以是一个完整的 URL
+  repo: "https://github.com/chencye/blog",
+  repoLabel: "GitHub",
+  // 是否在导航栏内显示仓库链接，默认为 `true`
+  repoDisplay: true,
 
   docsDir: "src",
 

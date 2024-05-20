@@ -15,6 +15,7 @@ pnpm config set cache-dir "C:\data\pnpm\cache"
 # 安装vuepress-theme-hope
 pnpm create vuepress-theme-hope [dir]
 
+pnpm install
 # 启动
 pnpm docs:dev
 # 构建
